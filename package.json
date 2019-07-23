@@ -1,0 +1,24 @@
+{
+  "name": "byside-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquimACrosa/byside-challenge.git"
+  },
+  "author": "Joaquim Rosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaquimACrosa/byside-challenge/issues"
+  },
+  "homepage": "https://github.com/joaquimACrosa/byside-challenge#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
+}
