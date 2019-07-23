@@ -1,0 +1,64 @@
+// FILE RESPONSIBLE FOR THE STRUCTURE OF THE WEBSITE
+
+@import 'colors.scss';
+
+.flex-container{
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid $btn-red;
+
+    .logo-block{
+        flex: 1 1 calc(50% - 3px);
+        margin-right: 3px;
+        padding: 85px 0 65px 0;
+        display: flex;
+        justify-content: center;
+        background-color: $bg-lightred;
+
+        img{
+            width: 100%;
+            flex-basis: 320px;
+        }
+    }
+
+    .testdrive-block{
+        flex: 1 1 calc(50% - 3px);
+        margin-left: 3px;
+        background-color: $bg-grey;
+        padding: 20px;
+
+        .testdrive-title h1 {
+            margin: 0 0 20px 0;
+            color: $title-red;
+        }
+        
+        .testdrive-form {
+            margin-bottom: 30px;
+
+            .testdrive-form-inner {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 0 auto;
+
+                input {
+                    flex: 0 1 calc( 50% - 30px);
+                    text-transform: uppercase;
+                    padding: 10px;
+                    background-color: transparent;
+                    border: 0;
+                    border-bottom: 1px solid $grey;
+                    margin-bottom: 10px;
+                }
+            }    
+        }
+    }
+
+    .legal {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+}
