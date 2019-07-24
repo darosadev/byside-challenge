@@ -29,16 +29,22 @@
                         <form class="testdrive-form-inner">
                             <input placeholder="nome" type="text "name="name"/>
                             <input placeholder="telefone" type="number" name="tel"/>
+                            <select class="local-list" type="select" name="local">
+                                <option>Localidade</option>
+                            </select>
                             <input placeholder="email" type="email" name="email"/>
+                            <select class="concessionario-list" type="select" name="concessionario">
+                                <option>Concessionário</option>
+                            </select>
                             <div class="disclaimer-main">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia labore fugit ipsa consequatur, eaque soluta delectus est eum. Labore deleniti tempore illo ullam hic. Nihil recusandae sequi ipsam veritatis asperiores!</p>
                             </div>
                             <label>
-                                <input type="checkbox"/>
+                                <input type="checkbox" name="first-check"/>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In nobis ipsum magnam, est quae, et maxime culpa eaque, minus ullam aut? Asperiores, optio recusandae. Consequuntur debitis tempore itaque maxime cumque.
                             </label>
                             <label>
-                                <input type="checkbox"/>
+                                <input type="checkbox" name="second-check"/>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In nobis ipsum magnam, est quae, et maxime culpa eaque, minus ullam aut? Asperiores, optio recusandae. Consequuntur debitis tempore itaque maxime cumque.
                             </label>
                         </form>
@@ -55,6 +61,11 @@
                 </div>
         </div>
         
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+        </script>
         <script src="dist/js/main.js" async defer></script>
     </body>
 </html>

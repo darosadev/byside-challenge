@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Name 1",
+    "category": "Categorie 1",
+    "localidade": "Localidade 1",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 2",
+    "category": "Categorie 1",
+    "localidade": "Localidade 2",
+    "serviços": [
+      "Servico 1"
+    ]
+  },
+  {
+    "name": "Name 3",
+    "category": "Categorie 2",
+    "localidade": "Localidade 3",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 4",
+    "category": "Categorie 1",
+    "localidade": "Localidade 4",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 5",
+    "category": "Categorie 1",
+    "localidade": "Localidade 5",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 6",
+    "category": "Categorie 1",
+    "localidade": "Localidade 6",
+    "serviços": [
+      "Servico 1"
+    ]
+  },
+  {
+    "name": "Name 7",
+    "category": "Categorie 1",
+    "localidade": "Localidade 7",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 8",
+    "category": "Categorie 1",
+    "localidade": "Localidade 8",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 9",
+    "category": "Categorie 1",
+    "localidade": "Localidade 9",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 10",
+    "category": "Categorie 1",
+    "localidade": "Localidade 10",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 11",
+    "category": "Categorie 3",
+    "localidade": "Localidade 11",
+    "serviços": [
+      "Servico 1"
+    ]
+  },
+  {
+    "name": "Name 12",
+    "category": "Categorie 3",
+    "localidade": "Localidade 12",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 13",
+    "category": "Categorie 1",
+    "localidade": "Localidade 13",
+    "serviços": [
+      "Servico 1"
+    ]
+  },
+  {
+    "name": "Name 14",
+    "category": "Categorie 2",
+    "localidade": "Localidade 10",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 15",
+    "category": "Categorie 2",
+    "localidade": "Localidade 15",
+    "serviços": [
+      "Servico 1"
+    ]
+  },
+  {
+    "name": "Name 16",
+    "category": "Categorie 1",
+    "localidade": "Localidade 16",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 17",
+    "category": "Categorie 3",
+    "localidade": "Localidade 17",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 18",
+    "category": "Categorie 2",
+    "localidade": "Localidade 15",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 19",
+    "category": "Categorie 2",
+    "localidade": "Localidade 16",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  },
+  {
+    "name": "Name 20",
+    "category": "Categorie 2",
+    "localidade": "Localidade 2",
+    "serviços": [
+      "Servico 1",
+      "Servico 2"
+    ]
+  },
+  {
+    "name": "Name 21",
+    "category": "Categorie 1",
+    "localidade": "Localidade 2",
+    "serviços": [
+      "Servico 1",
+      "Servico 2",
+      "Servico 3"
+    ]
+  }
+]

@@ -43,14 +43,21 @@
                 justify-content: space-between;
                 margin: 0 auto;
 
-                input {
+                input{
                     flex: 0 1 calc( 50% - 30px);
+                }
+
+                input, select {
                     text-transform: uppercase;
                     padding: 10px;
                     background-color: transparent;
                     border: 0;
                     border-bottom: 1px solid $grey;
                     margin-bottom: 10px;
+                }
+
+                select{
+                    flex-basis: calc(50% - 10px);
                 }
             }    
         }
