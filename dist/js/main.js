@@ -1,26 +1,36 @@
-/*
+let localDropdown = $('.local-list');
+let concessionarioDropdown = $('.concessionario-list');
+let localList = $( ".local-list" );
+let option = $( ".local-list option:selected" );
+let data2 = null;
+let localArray = [];
+let arr = [];
 
-dropdown.empty();
-
-dropdown.append('<option selected="true" disabled>Concessionário</option>');
-dropdown.prop('selectedIndex', 0);
-
-const url = 'csvjson.json';
-
-// Populate dropdown with list of provinces
-$.getJSON(url, function (data) {
-  $.each(data, function (key, entry) {
-    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
-  })
-});*/
-
-let dropdown = $('.local-list');
-let dropdown2 = $('.concessionario-list');
 
 $.getJSON('dist/js/csvjson.json', function(data) {
     $.each(data, function (key, entry) {
-        dropdown.append($('<option class="local'+key+'">'+entry.localidade+'</option>'));
-        dropdown2.append($('<option class="local'+key+'">'+entry.name+'</option>'));
-        console.log(entry.localidade);
-    })
+        localDropdown.append($('<option data-key="'+key+'">'+entry.localidade+'</option>'));
+        concessionarioDropdown.append($('<option data-key="'+key+'">'+entry.name+'</option>'));
+        //console.log(entry.localidade);
+    });
+
+    data2 = [... data];
+
 });
+
+localList.click(function() {
+    localArray = [];
+    localArray.push($(".local-list :selected").val());
+
+    const filteredArray = data2.filter(d => d.localidade == localArray[0]);
+    console.log('Filter', filteredArray);
+
+    concessionarioDropdown.empty();
+    concessionarioDropdown.append($('<option data-key="0">Concessionário</option>'));
+    $.each(filteredArray, function (key, entry) {
+        concessionarioDropdown.append($('<option data-key="'+key+'">'+entry.name+'</option>'));
+    });
+
+    console.log(localArray);
+});
+
