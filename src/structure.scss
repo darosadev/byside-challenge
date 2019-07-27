@@ -16,6 +16,7 @@
         display: flex;
         justify-content: center;
         background-color: $bg-lightred;
+        align-self: flex-start;
 
         img{
             width: 100%;
@@ -35,7 +36,6 @@
         }
         
         .testdrive-form {
-            margin-bottom: 30px;
 
             .testdrive-form-inner {
                 display: flex;
@@ -67,5 +67,54 @@
         position: absolute;
         bottom: 30px;
         left: 30px;
+    }
+}
+
+.modal {
+    position: fixed;
+    transform: translateY(100%);
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: calc( 100vh - 3px );
+    background-color: #fff;
+    display: flex;
+    border-bottom: 5px solid $btn-red;
+    transition: 0.4s transform ease-in-out;
+
+    p {
+        flex: 1 1 320px;
+        max-width: 740px;
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    .close-modal {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+}
+
+.legal-on {
+    transform: translateY(0%);
+}
+
+.send-data-block{
+    margin-top: 40px;
+    width: 100%;
+    text-align: right;
+    
+    .send-data {
+        background-color: $btn-red;
+        padding: 7px 50px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        
     }
 }

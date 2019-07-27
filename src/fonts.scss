@@ -24,11 +24,54 @@ body{
         letter-spacing: 2px;
         font-weight: 500;
     }
+
+    .disclaimer-main p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .disclaimer-sub p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    label {
+        font-size: 10px;
+        line-height: 15px;
+        padding-left: 15px;
+        position: relative;
+        padding-bottom: 10px;
+
+        input{
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+    }
+    
 } 
+
+.legal {
+    font-weight: 500;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
 
 .testdrive-title h1 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
 }
+
+
+.modal {
+    .close-modal {
+        color: gray;
+        font-size: 19px;
+    }
+}
+
+
 

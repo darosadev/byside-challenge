@@ -2,6 +2,9 @@ let localDropdown = $('.local-list');
 let concessionarioDropdown = $('.concessionario-list');
 let localList = $( ".local-list" );
 let option = $( ".local-list option:selected" );
+let legalBtn = $('.legal');
+let legalModal = $('.modal');
+let closeModal = $('.close-modal');
 let data2 = null;
 let localArray = [];
 let arr = [];
@@ -34,3 +37,11 @@ localList.click(function() {
     console.log(localArray);
 });
 
+
+legalBtn.click(function() {
+    legalModal.addClass('legal-on');
+});
+
+closeModal.click(function() {
+    legalModal.removeClass('legal-on');
+});
