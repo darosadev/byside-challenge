@@ -73,14 +73,15 @@
 .modal {
     position: fixed;
     transform: translateY(100%);
-    top: 0;
+    bottom: -100%;
     left: 0;
     min-width: 100vw;
     min-height: calc( 100vh - 3px );
     background-color: #fff;
-    display: flex;
+    display: none;
     border-bottom: 5px solid $btn-red;
     transition: 0.4s transform ease-in-out;
+    bottom: 0;
 
     p {
         flex: 1 1 320px;
@@ -118,3 +119,72 @@
         
     }
 }
+
+
+@media (max-width: 1000px) {
+
+    .container {
+        background-color: $bg-grey;
+        border-bottom: 3px solid $btn-red;
+
+        .flex-container {
+            flex-direction: column;
+            max-width: 90%;
+            border-bottom: 0;
+    
+            .logo-block {
+                flex-basis: 100%!important;
+                margin-right: 0;
+                width: 100%;
+    
+                img {
+                    flex-basis: 200px!important;
+                }
+            }
+    
+            .testdrive-block .testdrive-form .testdrive-form-inner{
+                input {
+                    flex: 1 1 100%;
+                    margin-bottom: 30px;
+                }
+    
+                select {
+                    flex-basis: 100%;
+                    margin-bottom: 30px;
+                }
+            } 
+    
+            .legal {
+                bottom: unset;
+                top: 350px;
+                left: -20px;
+                transform: rotate(90deg);
+                padding: 0 10px;
+                background-color: $btn-red;
+                position: fixed;
+        
+                p{
+                    color: #fff;
+                }
+            }
+        }
+    
+        .send-data-block {
+            text-align: center;
+            position: relative;
+    
+            .send-data {
+                display: inline-block;
+                width: 100%;
+                background-color: transparent;
+                color: $btn-red;
+                padding: 10px 0;
+            }
+        }
+
+        .modal p {
+            max-width: 80%;
+        }
+    }
+
+  }
